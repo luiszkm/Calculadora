@@ -1,2 +1,2 @@
 # Calculadora
-calculadora feita com JS, clique <a hrfe ="https://luiszkm.github.io/Calculadora/">aqui </a>
+calculadora feita com JS, clique <a href ="https://luiszkm.github.io/Calculadora/">aqui </a>
