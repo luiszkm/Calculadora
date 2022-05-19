@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    --primary-color:rgba(140, 147, 221, 0.9);
+}
+body{
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px ;
+}
+section{
+    width: 30rem;
+    height: 30rem;
+    background: linear-gradient(to bottom, rgba(92, 3, 209, 0.575), rgba(57, 53, 73, 0.4));
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    border-radius:20px ;
+    box-shadow: 10px 15px 0px 8px black;
+
+}
+h1{
+    text-align: center;
+    padding: 30px;
+}
+table{
+    width: 28rem;
+    text-align: center;
+    padding: 5px;
+    gap: 5px;
+}
+table tbody tr td:last-child button{
+    background:radial-gradient(rgb(182, 241, 182),rgb(22, 70, 16));
+   
+}
+table tbody tr td:last-child button:hover{
+    background: radial-gradient( green, black);
+}
+.display{
+    width: 100%;
+    height: 70px;
+    border: 1px solid gray;
+    text-align: right;
+    margin-bottom: 5px;
+    font-size: 40px;
+    border-radius: 1rem;
+    box-shadow: 10px 1px 1px 3px black;
+    background: linear-gradient(rgb(93, 150, 93), rgb(167, 223, 185));
+    border: none;
+}
+.btn{
+    font-size: 20px;
+    margin-bottom: 8px;
+    width: 98%;
+    height: 40px;
+    border: none;
+    background-color: rgb(190, 185, 185);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 3px black;
+    border-radius: 5px;
+    background:radial-gradient(rgb(190, 189, 189),rgb(124, 122, 122));
+}
+.btn:hover{
+    
+    background:radial-gradient(gray,rgb(56, 55, 55));
+    border-radius: 15px;
+}
+h6{margin-top: 40px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
